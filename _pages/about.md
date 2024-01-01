@@ -1,15 +1,13 @@
 ---
 permalink: /
-title: "Bowen Shi"
-excerpt: "About me"
+title: "About Me"
+excerpt: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-About Me
-======
 I am a research scientist in Fundamental AI Research (FAIR), [Meta AI](https://ai.meta.com/research/). My main research interest is in machine learning for speech and audio. I have worked on a few different topics, including multimodal and multilingual speech, self-supervised speech representation learning and text-to-speech synthesis. My current research is primarily focused on general audio generation. Prior to Meta, I received my Ph.D in Computer Science from [TTI Chicago]() under the advisement of [Dr. Karen Livescu](), where I mainly worked on American Sign Language processing in the wild. Before that, I obtained my M.Sc from [ENSTA Paris]() and [Pierre and Marie Curie University](), and my B.Sc from [Shanghai Jiao Tong University]().
 
 Research Highlights

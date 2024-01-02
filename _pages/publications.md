@@ -24,7 +24,7 @@ For a full list of publications, please refer to [my Google Scholar Profile](htt
 <br/>[[paper](https://arxiv.org/abs/2305.13516)][[code](https://github.com/pytorch/fairseq/tree/master/examples/mms)]
 
 - [**Learning Audio-Visual Speech Representation by Masked Multimodal Cluster Prediction**](https://arxiv.org/abs/2201.02184)
-<br/><span style="font-size:1em">Bowen Shi, Wei-Ning Hsu, Kushal Lakhotia, Abdelrahman Mohamed</span>
+<br/><span style="font-size:1em">**Bowen Shi**, Wei-Ning Hsu, Kushal Lakhotia, Abdelrahman Mohamed</span>
 <br/>[[paper](https://arxiv.org/abs/2201.02184)][[code](https://github.com/facebookresearch/av_hubert/)]
 
 

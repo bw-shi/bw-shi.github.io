@@ -9,43 +9,43 @@ For a full list of publications, please refer to [my Google Scholar Profile](htt
 
 - [**Audiobox: Unified Audio Generation with Natural Language Prompts**](https://arxiv.org/abs/2312.15821)
 
-Apoorv Vyas<sup>*</sup>, *Bowen Shi*<sup>*</sup>, Matthew Le <sup>*</sup>, Andros Tjandra<sup>*</sup>, Yi-Chiao Wu<sup>*</sup>, Baishan Guo, Jiemin Zhang, Xinyue Zhang, Robert Adkins, William Ngan, Jeff Wang, Ivan Cruz, Bapi Akula, Akinniyi Akinyemi, Brian Ellis, Rashel Moritz, Yael Yungster, Alice Rakotoarison, Liang Tan, Chris Summers, Carleigh Wood, Joshua Lane, Mary Williamson, Wei-Ning Hsu (*: equal contribution)
+Apoorv Vyas<sup>\*</sup>, *Bowen Shi*<sup>\*</sup>, Matthew Le <sup>\*</sup>, Andros Tjandra<sup>*</sup>, Yi-Chiao Wu<sup>*</sup>, Baishan Guo, Jiemin Zhang, Xinyue Zhang, Robert Adkins, William Ngan, Jeff Wang, Ivan Cruz, Bapi Akula, Akinniyi Akinyemi, Brian Ellis, Rashel Moritz, Yael Yungster, Alice Rakotoarison, Liang Tan, Chris Summers, Carleigh Wood, Joshua Lane, Mary Williamson, Wei-Ning Hsu (*: equal contribution)
 
 arxiv:2312.15821 
 
 [[paper](https://arxiv.org/abs/2312.15821)][[demo](https://audiobox.metademolab.com/)] 
 
-- [**Scaling Autoregressive Multi-Modal Models: Pretraining and Instruction Tuning**](https://arxiv.org/abs/2309.02591)
+<!-- - [**Scaling Autoregressive Multi-Modal Models: Pretraining and Instruction Tuning**](https://arxiv.org/abs/2309.02591) -->
 
-Lili Yu<sup>*</sup>, *Bowen Shi*<sup>*</sup>, Ramakanth Pasunuru<sup>*</sup>, Benjamin Muller, Olga Golovneva, Tianlu Wang, Arun Babu, Binh Tang, Brian Karrer, Shelly Sheynin, Candace Ross, Adam Polyak, Russell Howes, Vasu Sharma, Puxin Xu, Hovhannes Tamoyan, Oron Ashual, Uriel Singer, Shang-Wen Li, Susan Zhang, Richard James, Gargi Ghosh, Yaniv Taigman, Maryam Fazel-Zarandi, Asli Celikyilmaz, Luke Zettlemoyer, Armen Aghajanyan<sup>*</sup> (*: equal contribution)
+<!-- Lili Yu<sup>\*</sup>, *Bowen Shi*<sup>\*</sup>, Ramakanth Pasunuru<sup>*</sup>, Benjamin Muller, Olga Golovneva, Tianlu Wang, Arun Babu, Binh Tang, Brian Karrer, Shelly Sheynin, Candace Ross, Adam Polyak, Russell Howes, Vasu Sharma, Puxin Xu, Hovhannes Tamoyan, Oron Ashual, Uriel Singer, Shang-Wen Li, Susan Zhang, Richard James, Gargi Ghosh, Yaniv Taigman, Maryam Fazel-Zarandi, Asli Celikyilmaz, Luke Zettlemoyer, Armen Aghajanyan<sup>*</sup> (*: equal contribution) -->
 
-arxiv:2309.02591 
+<!-- arxiv:2309.02591  -->
 
-[[paper](https://arxiv.org/abs/2309.02591)] 
+<!-- [[paper](https://arxiv.org/abs/2309.02591)]  -->
 
-- [**Voicebox: Text-Guided Multilingual Universal Speech Generation at Scale**](https://arxiv.org/abs/2306.15687)
+<!-- - [**Voicebox: Text-Guided Multilingual Universal Speech Generation at Scale**](https://arxiv.org/abs/2306.15687) -->
 
-Matthew Le<sup>*</sup>, Apoorv Vyas<sup>*</sup>, *Bowen Shi*<sup>*</sup>, Brian Karrer<sup>*</sup>, Leda Sari, Rashel Moritz, Mary Williamson, Vimal Manohar, Yossi Adi, Jay Mahadeokar, Wei-Ning Hsu<sup>*</sup>  (*: equal contribution)
+<!-- Matthew Le<sup>*</sup>, Apoorv Vyas<sup>*</sup>, *Bowen Shi*<sup>*</sup>, Brian Karrer<sup>*</sup>, Leda Sari, Rashel Moritz, Mary Williamson, Vimal Manohar, Yossi Adi, Jay Mahadeokar, Wei-Ning Hsu<sup>*</sup>  (*: equal contribution) -->
 
-NeurIPS 2023
+<!-- NeurIPS 2023 -->
 
-[[paper](https://arxiv.org/abs/2306.15687)][[demo](https://voicebox.metademolab.com/)] 
+<!-- [[paper](https://arxiv.org/abs/2306.15687)][[demo](https://voicebox.metademolab.com/)]  -->
 
-- [**Scaling Speech Technology to 1,000+ Languages**](https://arxiv.org/abs/2305.13516)
+<!-- - [**Scaling Speech Technology to 1,000+ Languages**](https://arxiv.org/abs/2305.13516) -->
 
-Vineel Pratap<sup>*</sup>, Andros Tjandra<sup>*</sup>, *Bowen Shi*<sup>*</sup>, Paden Tomasello, Arun Babu, Sayani Kundu, Ali Elkahky, Zhaoheng Ni, Apoorv Vyas, Maryam Fazel-Zarandi, Alexei Baevski, Yossi Adi, Xiaohui Zhang, Wei-Ning Hsu, Alexis Conneau, Michael Auli<sup>*</sup> (*: core team)
+<!-- Vineel Pratap<sup>*</sup>, Andros Tjandra<sup>*</sup>, *Bowen Shi*<sup>*</sup>, Paden Tomasello, Arun Babu, Sayani Kundu, Ali Elkahky, Zhaoheng Ni, Apoorv Vyas, Maryam Fazel-Zarandi, Alexei Baevski, Yossi Adi, Xiaohui Zhang, Wei-Ning Hsu, Alexis Conneau, Michael Auli<sup>*</sup> (*: core team) -->
 
-arxiv:2305.13516
+<!-- arxiv:2305.13516 -->
 
-[[paper](https://arxiv.org/abs/2305.13516)][[code](https://github.com/pytorch/fairseq/tree/master/examples/mms)] 
+<!-- [[paper](https://arxiv.org/abs/2305.13516)][[code](https://github.com/pytorch/fairseq/tree/master/examples/mms)]  -->
 
-- [**Learning Audio-Visual Speech Representation by Masked Multimodal Cluster Prediction**](https://arxiv.org/abs/2201.02184)
+<!-- - [**Learning Audio-Visual Speech Representation by Masked Multimodal Cluster Prediction**](https://arxiv.org/abs/2201.02184) -->
 
-Bowen Shi, Wei-Ning Hsu, Kushal Lakhotia, Abdelrahman Mohamed
+<!-- Bowen Shi, Wei-Ning Hsu, Kushal Lakhotia, Abdelrahman Mohamed -->
 
-ICLR 2022
+<!-- ICLR 2022 -->
 
-[[paper](https://arxiv.org/abs/2201.02184)][[code](https://github.com/facebookresearch/av_hubert/)] 
+<!-- [[paper](https://arxiv.org/abs/2201.02184)][[code](https://github.com/facebookresearch/av_hubert/)]  -->
 
 
 <!-- {% if author.googlescholar %} -->

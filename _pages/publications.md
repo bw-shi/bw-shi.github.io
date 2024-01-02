@@ -8,12 +8,9 @@ author_profile: true
 For a full list of publications, please refer to [my Google Scholar Profile](https://scholar.google.com/citations?user=xqyoorYAAAAJ&hl=en)
 
 - [**Audiobox: Unified Audio Generation with Natural Language Prompts**](https://arxiv.org/abs/2312.15821)
-
-Apoorv Vyas<sup>\*</sup>, *Bowen Shi*<sup>\*</sup>, Matthew Le <sup>\*</sup>, Andros Tjandra<sup>*</sup>, Yi-Chiao Wu<sup>*</sup>, Baishan Guo, Jiemin Zhang, Xinyue Zhang, Robert Adkins, William Ngan, Jeff Wang, Ivan Cruz, Bapi Akula, Akinniyi Akinyemi, Brian Ellis, Rashel Moritz, Yael Yungster, Alice Rakotoarison, Liang Tan, Chris Summers, Carleigh Wood, Joshua Lane, Mary Williamson, Wei-Ning Hsu (*: equal contribution)
-
-arxiv:2312.15821 
-
-[[paper](https://arxiv.org/abs/2312.15821)][[demo](https://audiobox.metademolab.com/)] 
+<br/><h6>Apoorv Vyas<sup>\*</sup>, *Bowen Shi*<sup>\*</sup>, Matthew Le <sup>\*</sup>, Andros Tjandra<sup>\*</sup>, Yi-Chiao Wu<sup>\*</sup>, Baishan Guo, Jiemin Zhang, Xinyue Zhang, Robert Adkins, William Ngan, Jeff Wang, Ivan Cruz, Bapi Akula, Akinniyi Akinyemi, Brian Ellis, Rashel Moritz, Yael Yungster, Alice Rakotoarison, Liang Tan, Chris Summers, Carleigh Wood, Joshua Lane, Mary Williamson, Wei-Ning Hsu (\*: equal contribution)<h6>
+<br/>arxiv:2312.15821 
+<br/>[[paper](https://arxiv.org/abs/2312.15821)][[demo](https://audiobox.metademolab.com/)] 
 
 <!-- - [**Scaling Autoregressive Multi-Modal Models: Pretraining and Instruction Tuning**](https://arxiv.org/abs/2309.02591) -->
 

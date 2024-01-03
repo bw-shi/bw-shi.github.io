@@ -28,7 +28,7 @@ For a full list of publications, please refer to [my Google Scholar Profile](htt
 <br/>Interspeech 2023 [[code](https://github.com/facebookresearch/muavic/)]
 
 - [**EXPRESSO: A Benchmark and Analysis of Discrete Expressive Speech Resynthesis**](https://arxiv.org/abs/2308.05725)
-<br/><span style="font-size:1em">Tu Anh Nguyen<sup>\*</sup>, Wei-Ning Hsu<sup>\*</sup>, Antony D'Avirro<sup>\*</sup>, **Bowen Shi**<sup>\*</sup>, Itai Gat, Maryam Fazel-Zarani, Tal Remez, Jade Copet, Gabriel Synnaeve, Michael Hassid, Felix Kreuk, Yossi Adi<sup>\*</sup>, Emmanuel Dupoux<sup>\*</sup></span>
+<br/><span style="font-size:1em">Tu Anh Nguyen<sup>\*</sup>, Wei-Ning Hsu<sup>\*</sup>, Antony D'Avirro<sup>\*</sup>, **Bowen Shi**<sup>\*</sup>, Itai Gat, Maryam Fazel-Zarani, Tal Remez, Jade Copet, Gabriel Synnaeve, Michael Hassid, Felix Kreuk, Yossi Adi<sup>\*</sup>, Emmanuel Dupoux<sup>\*</sup>  (\*: core contribution)</span>
 <br/>Interspeech 2023 [[code](https://speechbot.github.io/expresso/)]
 
 - [**Comparative layer-wise analysis of self-supervised speech models**](https://arxiv.org/abs/2212.11377)
@@ -60,15 +60,15 @@ For a full list of publications, please refer to [my Google Scholar Profile](htt
 <br/>EMNLP 2022 [[data](https://github.com/chevalierNoir/OpenASL/)]
 
 - [**Searching for fingerspelled content in American Sign Language**](https://arxiv.org/abs/2203.13291)
-<br/><span style="font-size:1em">**Bowen Shi**, Diane Brentari, Greg Shakhnarovich, and Karen Livescu</span>
+<br/><span style="font-size:1em">**Bowen Shi**, Diane Brentari, Greg Shakhnarovich, Karen Livescu</span>
 <br/>ACL 2022
 
 - [**Fingerspelling Detection in American Sign Language**](https://arxiv.org/abs/2104.01291)
-<br/><span style="font-size:1em">**Bowen Shi**, Diane Brentari, Greg Shakhnarovich, and Karen Livescu</span>
+<br/><span style="font-size:1em">**Bowen Shi**, Diane Brentari, Greg Shakhnarovich, Karen Livescu</span>
 <br/>CVPR 2021
 
 - [**Fingerspelling recognition in the wild with iterative visual attention**](https://arxiv.org/abs/1908.10546)
-<br/><span style="font-size:1em">**Bowen Shi**, Aurora Martinez Del Rio, Jonathan Keane, Diane Brentari, Greg Shakhnarovich, and Karen Livescu</span>
+<br/><span style="font-size:1em">**Bowen Shi**, Aurora Martinez Del Rio, Jonathan Keane, Diane Brentari, Greg Shakhnarovich, Karen Livescu</span>
 <br/>ICCV 2019 [[data](https://home.ttic.edu/~klivescu/ChicagoFSWild.htm)]
 
 - [**American Sign Language fingerspelling recognition in the wild**](https://arxiv.org/abs/1810.11438)

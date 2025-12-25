@@ -1,14 +1,16 @@
-.icon-scholar {
-  content: url('../images/Google_Scholar_logo.svg');
-  height: 1em;
-  width: 1em;
-}
+/* .icon-scholar { */
+/*   content: url('../images/Google_Scholar_logo.svg'); */
+/*   height: 1em; */
+/*   width: 1em; */
+/* } */
+
 .authors {
     font-size: 0.9em;      /* Makes the font 10% smaller than the title */
-    color: #555;           /* Slightly lighter grey for better hierarchy */
-    display: block;        /* Ensures it sits correctly between title and links */
-    line-height: 1.4;      /* Improves readability for long author lists */
+    /* color: #555;           /\* Slightly lighter grey for better hierarchy *\/ */
+    /* display: block;        /\* Ensures it sits correctly between title and links *\/ */
 }
+
+ 
 .bio-image {
   border-radius: 50%;
   width: 60%;

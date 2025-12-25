@@ -28,7 +28,33 @@
   <link rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
-  <style> .social{font-size:2.2rem;color:#6c6c6c;margin-inline:.05em;} </style>
+  <!-- <style> .social{font-size:2.2rem;color:#6c6c6c;margin-inline:.05em;} -->
+  <!--  .social-link { display:inline-block; margin-inline:.05em; vertical-align:middle; color:#6c6c6c; } -->
+  <!-- .social-svg { height:1em; width:1em; vertical-align:middle; fill: currentColor; } -->
+  <!-- </style> -->
+
+  <style>
+  .social {
+    font-size: 2.2rem;
+    color: #6c6c6c;
+    margin-inline: .05em;
+    vertical-align: middle;
+  }
+
+  .social-link {
+    display: inline-block;
+    margin-inline: .05em;
+    vertical-align: middle;
+    color: #6c6c6c;
+  }
+
+  .social-svg {
+    width: 1.8em;
+    height: 1.8em;
+    vertical-align: middle;
+    fill: currentColor;
+  }
+</style>
 
   <style>
     a { text-decoration:none; }
@@ -51,12 +77,22 @@
       <div class="one-half column" style="margin-top: 10%">
         <h3>Bowen Shi</h3>
         <p>Research Scientist<br>
-        Meta<br/>
+        Meta MSL<br/>
         bshi _at_ meta _dot_ com<br/></p>
 
         <a class="social fa-brands fa-github"     href="https://github.com/chevalierNoir"></a>
         <a class="social fa-brands fa-linkedin-in" href="https://www.linkedin.com/in/bowen-shi-6b73a290/"></a>
-	<a class="social icon-scholar" href="https://scholar.google.com/citations?user=xqyoorYAAAAJ&hl=en"></a>
+	<a class="social-link" href="https://scholar.google.com/citations?user=xqyoorYAAAAJ&hl=en">
+
+
+<a class="social-link" href="https://scholar.google.com/citations?user=xqyoorYAAAAJ&hl=en">
+
+  <svg class="social-svg" viewBox="0 0 24 24" aria-hidden="true">
+    <!-- simple Scholar-like mortarboard icon -->
+    <path d="M12 3 1 9l11 6 9-4.9V17h2V9L12 3zm-7.5 9.4V16c0 2.2 3.2 4 7.5 4s7.5-1.8 7.5-4v-3.6L12 16l-7.5-3.6z"/>
+  </svg>
+</a>
+	<!-- <a class="social icon-scholar" href="https://scholar.google.com/citations?user=xqyoorYAAAAJ&hl=en"></a> -->
         <!-- <a class="social fa-brands fa-google-scholar" href="https://scholar.google.com/citations?user=xqyoorYAAAAJ&hl=en"></a> -->
 
         <br>
@@ -68,7 +104,7 @@
 
 
     <div class="row" style="margin-top: 2%" id="about">
-      <p>I am a research scientist at Meta SuperIntelligence Labs, working on speech and audio generation and understanding. I obtained my Ph.D. from <a href="https://www.ttic.edu/">TTIC</a> where I worked on sign language processing under the advisement of Prof. <a href="https://home.ttic.edu/~klivescu/">Karen Livescu</a>
+      <p>I am a research scientist at Meta SuperIntelligence Labs, working on speech and audio. I am a core contributor to Meta’s foundational audio generation models, including SAM Audio, MovieGen Audio, AudioBox, and VoiceBox. I obtained my Ph.D. from <a href="https://www.ttic.edu/">TTIC</a> where I worked on automatic sign language understanding under the advisement of Prof. <a href="https://home.ttic.edu/~klivescu/">Karen Livescu</a>.
 
     </div>
 	  	  
@@ -76,23 +112,32 @@
 
 
 
+
   <div class="container">
     <div class="row" style="margin-top: 2%" id="pubs">
-      <h4>Selected Publications</h4>
+      <!-- <h4>Selected Publications</h4> -->
+      <h4 class="section-title">Selected Publications</h4>
     </div>
     <div class="row">
       <div class="twelve columns" style="margin-top: 0%"><p>
-        <b>SAM Audio: Segment Anything in Audio</b> <br>
-        <b>Bowen Shi</b>, Andros Tjandra, John Hoffman, Helin Wang, Yi-Chiao Wu, Luya Gao, Julius Richter, Matt Le, Apoorv Vyas, Sanyuan Chen, Christoph Feichtenhofer, Piotr Dollár, Wei-Ning Hsu, Ann Lee <br>
-        <b>Technical Report</b> <a href="https://arxiv.org/abs/2512.18099">[paper]</a> <a href="https://ai.meta.com/samaudio/">[blog]</a> <a href="https://github.com/facebookresearch/sam-audio">[code]</a><br>
+          <b>SAM Audio: Segment Anything in Audio</b> <br>
+	  <span class="authors">
+            <b>Bowen Shi<sup>&dagger;</sup></b>, Andros Tjandra<sup>&dagger;</sup>, John Hoffman<sup>&dagger;</sup>, Helin Wang<sup>&dagger;</sup>, Yi-Chiao Wu<sup>&dagger;</sup>, Luya Gao<sup>&dagger;</sup>, Julius Richter, Matt Le, Apoorv Vyas, Sanyuan Chen, Christoph Feichtenhofer, Piotr Dollár, Wei-Ning Hsu, Ann Lee <br>
+	    (project lead, &dagger;: core contributors)
+	    
+	  </span>
+	    
+        <b>Technical Report, 2025</b> <a href="https://arxiv.org/abs/2512.18099">[paper]</a> <a href="https://ai.meta.com/samaudio/">[blog]</a><a href="https://aidemos.meta.com/segment-anything/editor/segment-audio">[demo]</a><a href="https://github.com/facebookresearch/sam-audio">[code]</a><br>
       </div>
   </div>
 
     <div class="row">
       <div class="twelve columns" style="margin-top: 0%"><p>
         <b>Movie Gen: A Cast of Media Foundation Models</b> <br>
-        <b>Core Contributor</b>, The Movie Gen Team.<br>
-        <b>Technical Report</b> <a href="https://ai.meta.com/static-resource/movie-gen-research-paper">[paper]</a> <a href="https://ai.meta.com/research/movie-gen/">[blog]</a><br>
+	  <span class="authors">
+            <b>Core Contributor</b>, The Movie Gen Team.<br>
+	    </span>
+        <b>Technical Report, 2024</b> <a href="https://ai.meta.com/static-resource/movie-gen-research-paper">[paper]</a> <a href="https://ai.meta.com/research/movie-gen/">[blog]</a><br>
       </div>
   </div>
 
@@ -100,33 +145,53 @@
       <div class="twelve columns" style="margin-top: 0%"><p>
           <b>Audiobox: Unified Audio Generation with Natural Language Prompts</b> <br>
 	  <span class="authors">
-        Apoorv Vyas<sup>&dagger;</sup>, <b>Bowen Shi<sup>&dagger;</sup></b>, Matthew Le<sup>&dagger;</sup>, Andros Tjandra<sup>&dagger;</sup>, Yi-Chiao Wu<sup>&dagger;</sup>, Baishan Guo, Jiemin Zhang, Xinyue Zhang, Robert Adkins, William Ngan, Jeff Wang, Ivan Cruz, Bapi Akula, Akinniyi Akinyemi, Brian Ellis, Rashel Moritz, Yael Yungster, Alice Rakotoarison, Liang Tan, Chris Summers, Carleigh Wood, Joshua Lane, Mary Williamson, Wei-Ning Hsu (&dagger;: equal contribution)
-	</span><br>
-        <b>Technical Report</b> <a href="https://arxiv.org/abs/2312.15821">[paper]</a> <a href="https://ai.meta.com/blog/audiobox-generating-audio-voice-natural-language-prompts/">[blog]</a><a href="https://audiobox.metademolab.com/">[Demo]</a><br>
+            Apoorv Vyas<sup>&dagger;</sup>, <b>Bowen Shi<sup>&dagger;</sup></b>, Matthew Le<sup>&dagger;</sup>, Andros Tjandra<sup>&dagger;</sup>, Yi-Chiao Wu<sup>&dagger;</sup>, Baishan Guo, Jiemin Zhang, Xinyue Zhang, Robert Adkins, William Ngan, Jeff Wang, Ivan Cruz, Bapi Akula, Akinniyi Akinyemi, Brian Ellis, Rashel Moritz, Yael Yungster, Alice Rakotoarison, Liang Tan, Chris Summers, Carleigh Wood, Joshua Lane, Mary Williamson, Wei-Ning Hsu<br>
+	    (&dagger;: equal contribution)
+	  </span>
+	   
+        <b>Technical Report, 2023</b> <a href="https://arxiv.org/abs/2312.15821">[paper]</a> <a href="https://ai.meta.com/blog/audiobox-generating-audio-voice-natural-language-prompts/">[blog]</a><a href="https://audiobox.metademolab.com/">[demo]</a><br>
       </div>
   </div>
 
     <div class="row">
       <div class="twelve columns" style="margin-top: 0%"><p>
           <b>Voicebox: Text-Guided Multilingual Universal Speech Generation at Scale,</b> <br>
-	  Matthew Le<sup>*</sup>, Apoorv Vyas<sup>*</sup>, <b>Bowen Shi<sup>*</sup></b>, Brian Karrer<sup>*</sup>, Leda Sari, Rashel Moritz, Mary Williamson, Vimal Manohar, Yossi Adi, Jay Mahadeokar, Wei-Ning Hsu<sup>*</sup> <br>
-        <b>NeurIPS 2023</b> <a href="https://arxiv.org/abs/2306.15687">[paper]</a> <a href="https://voicebox.metademolab.com/">[blog]</a><br> (*: equal contribution)
+	  <span class="authors">
+
+	  Matthew Le<sup>&dagger;</sup>, Apoorv Vyas<sup>&dagger;</sup>, <b>Bowen Shi<sup>&dagger;</sup></b>, Brian Karrer<sup>&dagger;</sup>, Leda Sari, Rashel Moritz, Mary Williamson, Vimal Manohar, Yossi Adi, Jay Mahadeokar, Wei-Ning Hsu<sup>&dagger;</sup> <br>
+	    (&dagger;: equal contribution)
+
+	  </span>
+
+          <b>NeurIPS 2023</b> <a href="https://arxiv.org/abs/2306.15687">[paper]</a> <a href="https://voicebox.metademolab.com/">[blog]</a><br>
       </div>
   </div>
 
     <div class="row">
       <div class="twelve columns" style="margin-top: 0%"><p>
           <b>Scaling Speech Technology to 1,000+ Languages</b> <br>
-	  Vineel Pratap<sup>*</sup>, Andros Tjandra<sup>*</sup>, <b>Bowen Shi<sup>*</sup></b>, Paden Tomasello, Arun Babu, Sayani Kundu, Ali Elkahky, Zhaoheng Ni, Apoorv Vyas, Maryam Fazel-Zarandi, Alexei Baevski, Yossi Adi, Xiaohui Zhang, Wei-Ning Hsu, Alexis Conneau, Michael Auli<sup>*</sup><br>
-        <b>JMLR 2023</b> <a href="https://arxiv.org/abs/2305.13516">[paper]</a> <a href="https://ai.meta.com/blog/multilingual-model-speech-recognition/">[blog]</a> <a href="https://github.com/facebookresearch/fairseq/blob/main/examples/mms/README.md">[code]</a><br> (*: core contributor)
+	  <span class="authors">
+
+	    Vineel Pratap<sup>&dagger;</sup>, Andros Tjandra<sup>&dagger;</sup>, <b>Bowen Shi<sup>&dagger;</sup></b>, Paden Tomasello, Arun Babu, Sayani Kundu, Ali Elkahky, Zhaoheng Ni, Apoorv Vyas, Maryam Fazel-Zarandi, Alexei Baevski, Yossi Adi, Xiaohui Zhang, Wei-Ning Hsu, Alexis Conneau, Michael Auli<sup>&dagger;</sup><br>
+	    (&dagger;: core contributors)
+
+	  </span>
+
+        <b>JMLR 2023</b> <a href="https://arxiv.org/abs/2305.13516">[paper]</a> <a href="https://ai.meta.com/blog/multilingual-model-speech-recognition/">[blog]</a> <a href="https://github.com/facebookresearch/fairseq/blob/main/examples/mms/README.md">[code]</a><br>
       </div>
   </div>
 
     <div class="row">
       <div class="twelve columns" style="margin-top: 0%"><p>
           <b>Scaling Autoregressive Multi-Modal Models: Pretraining and Instruction Tuning</b> <br>
-	  Lili Yu<sup>*</sup>, Bowen Shi<sup>*</sup>, Ramakanth Pasunuru<sup>*</sup>, Benjamin Muller, Olga Golovneva, Tianlu Wang, Arun Babu, Binh Tang, Brian Karrer, Shelly Sheynin, Candace Ross, Adam Polyak, Russell Howes, Vasu Sharma, Puxin Xu, Hovhannes Tamoyan, Oron Ashual, Uriel Singer, Shang-Wen Li, Susan Zhang, Richard James, Gargi Ghosh, Yaniv Taigman, Maryam Fazel-Zarandi, Asli Celikyilmaz, Luke Zettlemoyer, Armen Aghajanyan<sup>*</sup><br>
-        <b>Technical Report</b> <a href="https://arxiv.org/abs/2309.02591">[paper]</a> <a href="https://ai.meta.com/blog/generative-ai-text-images-cm3leon/">[blog]</a><br> (*: equal contribution)
+	  <span class="authors">
+
+	  Lili Yu<sup>&dagger;</sup>, <b>Bowen Shi<sup>&dagger;</sup></b>, Ramakanth Pasunuru<sup>&dagger;</sup>, Benjamin Muller, Olga Golovneva, Tianlu Wang, Arun Babu, Binh Tang, Brian Karrer, Shelly Sheynin, Candace Ross, Adam Polyak, Russell Howes, Vasu Sharma, Puxin Xu, Hovhannes Tamoyan, Oron Ashual, Uriel Singer, Shang-Wen Li, Susan Zhang, Richard James, Gargi Ghosh, Yaniv Taigman, Maryam Fazel-Zarandi, Asli Celikyilmaz, Luke Zettlemoyer, Armen Aghajanyan<sup>&dagger;</sup><br>
+	    (&dagger;: equal contribution)
+
+	  </span>
+
+          <b>Technical Report, 2023</b> <a href="https://arxiv.org/abs/2309.02591">[paper]</a> <a href="https://ai.meta.com/blog/generative-ai-text-images-cm3leon/">[blog]</a>
       </div>
   </div>
 

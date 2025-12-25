@@ -1,6 +1,0 @@
-title: Bowen Shi | Research
-description: "Research scientist at Meta SuperIntelligence Labs"
-url: "https://bw-shi.github.io" # Your base URL
-baseurl: "" # Required if hosting at the root domain
-markdown: kramdown
-permalink: /:title/

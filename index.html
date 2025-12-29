@@ -20,11 +20,11 @@
   <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 
 
-  <link rel="stylesheet" href="https://bw-shi.github.io/css/normalize.css">
-  <link rel="stylesheet" href="https://bw-shi.github.io/css/skeleton.css">
-  <link rel="stylesheet" href="https://bw-shi.github.io/css/custom.css">
-  <link rel="stylesheet" href="https://bw-shi.github.io/css/social-circles.min.css">
-  <link rel="stylesheet" href="https://bw-shi.github.io/css/font-awesome.min.css"> 
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/social-circles.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css"> 
   <link rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
@@ -80,7 +80,6 @@
         Meta MSL<br/>
         bshi _at_ meta _dot_ com<br/></p>
 
-        <a class="social fa-brands fa-github"     href="https://github.com/chevalierNoir"></a>
         <a class="social fa-brands fa-linkedin-in" href="https://www.linkedin.com/in/bowen-shi-6b73a290/"></a>
 	<a class="social-link" href="https://scholar.google.com/citations?user=xqyoorYAAAAJ&hl=en">
 
@@ -104,7 +103,7 @@
 
 
     <div class="row" style="margin-top: 2%" id="about">
-      <p>I am a research scientist at Meta SuperIntelligence Labs, working on speech and audio. I am a core contributor to Meta’s foundational audio generation models, including SAM Audio, MovieGen Audio, AudioBox, and VoiceBox. I obtained my Ph.D. from <a href="https://www.ttic.edu/">TTIC</a> where I worked on automatic sign language understanding under the advisement of Prof. <a href="https://home.ttic.edu/~klivescu/">Karen Livescu</a>.
+      <p>I am a research scientist at Meta SuperIntelligence Labs, working on speech and audio. I am a core contributor to Meta’s foundational audio generation models, including SAM Audio, MovieGen Audio, AudioBox, VoiceBox and MMS. I obtained my Ph.D. from <a href="https://www.ttic.edu/">TTIC</a> where I worked on automatic sign language understanding under the advisement of Prof. <a href="https://home.ttic.edu/~klivescu/">Karen Livescu</a>.
 
     </div>
 	  	  
@@ -130,13 +129,38 @@
 </div>
 
 
-  <div class="container">
-    <div class="row" style="margin-top: 2%" id="pubs">
-      <!-- <h4>Selected Publications</h4> -->
-      <h4 class="section-title">Selected Publications</h4>
-    </div>
+<div class="container">
+<div class="row" style="margin-top: 2%" id="pubs">
+  <h4 class="section-title">Selected Publications</h4>
+  <div class="section-note">
+    (See my <a href="https://scholar.google.com/citations?user=xqyoorYAAAAJ&hl=en">Google Scholar</a> for a full list)
+  </div>
+</div>
+    <!-- <div class="row" style="margin-top: 2%" id="pubs"> -->
+    <!--   <\!-- <h4>Selected Publications</h4> -\-> -->
+    <!--   <h4 class="section-title">Selected Publications</h4> -->
+    <!-- </div> -->
     <div class="row">
-      <div class="twelve columns" style="margin-top: 0%"><p>
+      <div class="four columns" style="margin-top: 0%">
+	<video
+	  src="images/sam_audio.mp4"
+	  controls
+	  preload="metadata"
+	  style="
+		 width: 100%;
+		 border-radius: 6px;
+		 margin-top: 0.3em;
+		 display: block;
+		 "
+	autoplay
+	muted
+	loop
+	playsinline
+	controls
+
+	  ></video>
+      </div>
+      <div class="eight columns" style="margin-top: 0%"><p>
           <b>SAM Audio: Segment Anything in Audio</b> <br>
 	  <span class="authors">
             <b>Bowen Shi<sup>&dagger;</sup></b>, Andros Tjandra<sup>&dagger;</sup>, John Hoffman<sup>&dagger;</sup>, Helin Wang<sup>&dagger;</sup>, Yi-Chiao Wu<sup>&dagger;</sup>, Luya Gao<sup>&dagger;</sup>, Julius Richter, Matt Le, Apoorv Vyas, Sanyuan Chen, Christoph Feichtenhofer, Piotr Dollár, Wei-Ning Hsu, Ann Lee <br>
@@ -148,7 +172,22 @@
   </div>
 
     <div class="row">
-      <div class="twelve columns" style="margin-top: 0%"><p>
+    <div class="four columns" style="margin-top: 0%">
+      <video
+        src="images/moviegen.mp4"
+        style="
+          width: 100%;
+          border-radius: 6px;
+          margin-top: 0.3em;
+          "
+	autoplay
+	muted
+	loop
+	playsinline
+	controls
+      >
+    </div>
+      <div class="eight columns" style="margin-top: 0%"><p>
         <b>Movie Gen: A Cast of Media Foundation Models</b> <br>
 	  <span class="authors">
             <b>Core Contributor</b>, The Movie Gen Team.<br>
@@ -158,7 +197,24 @@
   </div>
 
     <div class="row">
-      <div class="twelve columns" style="margin-top: 0%"><p>
+    <div class="four columns" style="margin-top: 0%">
+      <video
+        src="images/audiobox.mp4"
+        style="
+          width: 100%;
+          border-radius: 6px;
+          margin-top: 0.3em;
+          "
+	autoplay
+	muted
+	loop
+	playsinline
+	controls
+
+	>
+    </div>
+
+      <div class="eight columns" style="margin-top: 0%"><p>
           <b>Audiobox: Unified Audio Generation with Natural Language Prompts</b> <br>
 	  <span class="authors">
             Apoorv Vyas<sup>&dagger;</sup>, <b>Bowen Shi<sup>&dagger;</sup></b>, Matthew Le<sup>&dagger;</sup>, Andros Tjandra<sup>&dagger;</sup>, Yi-Chiao Wu<sup>&dagger;</sup>, Baishan Guo, Jiemin Zhang, Xinyue Zhang, Robert Adkins, William Ngan, Jeff Wang, Ivan Cruz, Bapi Akula, Akinniyi Akinyemi, Brian Ellis, Rashel Moritz, Yael Yungster, Alice Rakotoarison, Liang Tan, Chris Summers, Carleigh Wood, Joshua Lane, Mary Williamson, Wei-Ning Hsu<br>
@@ -170,7 +226,24 @@
   </div>
 
     <div class="row">
-      <div class="twelve columns" style="margin-top: 0%"><p>
+    <div class="four columns" style="margin-top: 0%">
+      <video
+        src="images/voicebox.mp4"
+        style="
+          width: 100%;
+          border-radius: 6px;
+          margin-top: 0.3em;
+          "
+	autoplay
+	muted
+	loop
+	playsinline
+	controls
+
+	>
+    </div>
+
+      <div class="eight columns" style="margin-top: 0%"><p>
           <b>Voicebox: Text-Guided Multilingual Universal Speech Generation at Scale,</b> <br>
 	  <span class="authors">
 
@@ -184,7 +257,18 @@
   </div>
 
     <div class="row">
-      <div class="twelve columns" style="margin-top: 0%"><p>
+      <div class="four columns" style="margin-top: 0%"><p>
+      <image
+        src="images/mms.png"
+        style="
+          width: 100%;
+          border-radius: 6px;
+          margin-top: 0.3em;
+          "
+	>
+    </div>
+
+      <div class="eight columns" style="margin-top: 0%"><p>
           <b>Scaling Speech Technology to 1,000+ Languages</b> <br>
 	  <span class="authors">
 
@@ -198,7 +282,18 @@
   </div>
 
     <div class="row">
-      <div class="twelve columns" style="margin-top: 0%"><p>
+      <div class="four columns" style="margin-top: 0%"><p>
+      <image
+        src="images/cm3leon.png"
+        style="
+          width: 100%;
+          border-radius: 6px;
+          margin-top: 0.8em;
+          "
+	>
+    </div>
+
+      <div class="eight columns" style="margin-top: 0%"><p>
           <b>Scaling Autoregressive Multi-Modal Models: Pretraining and Instruction Tuning</b> <br>
 	  <span class="authors">
 
@@ -208,6 +303,30 @@
 	  </span>
 
           <b>Technical Report, 2023</b> <a href="https://arxiv.org/abs/2309.02591">[paper]</a> <a href="https://ai.meta.com/blog/generative-ai-text-images-cm3leon/">[blog]</a>
+      </div>
+  </div>
+
+    <div class="row">
+      <div class="four columns" style="margin-top: 0%"><p>
+      <image
+        src="images/avhubert.jpeg"
+        style="
+          width: 100%;
+          border-radius: 6px;
+          margin-top: 0.3em;
+          "
+	>
+    </div>
+
+      <div class="eight columns" style="margin-top: 0%"><p>
+          <b>Learning Audio-Visual Speech Representation by Masked Multimodal Cluster Prediction</b> <br>
+	  <span class="authors">
+
+	  <b>Bowen Shi</b>,  Wei-Ning Hsu, Kushal Lakhotia, Abdelrahman Mohamed<br>
+
+	  </span>
+
+          <b>ICLR, 2022</b> <a href="https://arxiv.org/abs/2201.02184">[paper]</a> <a href="https://ai.meta.com/blog/ai-that-understands-speech-by-looking-as-well-as-hearing/">[blog]</a><a href="https://github.com/facebookresearch/av_hubert">[code]</a>
       </div>
   </div>
 

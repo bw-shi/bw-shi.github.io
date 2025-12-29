@@ -19,11 +19,6 @@
   width: 100%;
   height: auto; }
 
-.section-note {
-  margin-top: -1em;          /* remove extra space above note */
-  margin-bottom: 1em;
-
-}
 .container {
   max-width: 800px; }
 .header {
